@@ -1,20 +1,30 @@
-# Learning the JavaScript Language
-This is the repository for the LinkedIn Learning course Learning the JavaScript Language. The full course is available from [LinkedIn Learning][lil-course-url].
+# JavaScript Foundations - Practice Exercises
 
-![Learning the JavaScript Language][lil-thumbnail-url] 
+This is my personal practice repository.  
 
-JavaScript is one of the most popular programming languages in the world, used to create dynamic websites along with a host of other applications. And like any language—whether spoken language or programming language—it takes time and practice to become conversant. In this course, Joe Chellman teaches you how to “speak” JavaScript by familiarizing yourself with the most commonly encountered topics and concepts. Joe starts out with some basic JavaScript syntax and jargon, then covers what you need to know about in the JavaScript toolbox, including variables, types, objects, arrays, operators, control structures, loops, and functions. Join Joe in this course to start your path toward JavaScript fluency and unlock the power of this popular language.
+## About This Course
 
+This course is called **JavaScript Foundations Professional Certificate**.  
 
-### Instructor
+## Topics I will practice
 
-Joe Chellman 
-                            
-Web Developer
+- Variables
+- Data Types
+- Functions
+- Arrays
+- Loops
+- DOM (Document Object Model)
+- Events
+- Async and Promises
 
-                            
+## My Goal
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/joe-chellman).
+I want to improve my JavaScript skills.  
+I want to show my progress every day.  
 
-[lil-course-url]: https://www.linkedin.com/learning/learning-the-javascript-language-22309208?dApp=59033956&leis=LAA
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQEpa5LhtPUlUg/learning-public-crop_675_1200/0/1683586021773?e=2147483647&v=beta&t=vRDAZPrFPLsfXDXkELzJbOrrJL7wKNCAAkAro6e2Fpw
+## Progress Table
+
+## How to use this repository
+
+You can see my code files and my exercises.  
+You can clone this repository with: git clone git@github.com:luisecarrillom/javascript-foundations.git
