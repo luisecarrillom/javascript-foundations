@@ -6,14 +6,14 @@
 12;
 
 'This is also a string';
-'This is a string"; // mismatched quotes - this will not execute
+'This is a string';  // corregido: comillas simples consistentes
 
 '<a href="">';
 '<a href="http://www.example.com">';
 
 "This is Joe's favorite string";
-"This is Joe's \"favorite\" string";
-"This is Joe's "favorite" string"; // this line will not work
+"This is Joe's \"favorite\" string";  // comillas internas escapadas correctamente
+"This is Joe's 'favorite' string";  // alternativa usando comillas simples internas
 
 "This is \
 Joe's Favorite \
