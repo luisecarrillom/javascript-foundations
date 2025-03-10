@@ -1,31 +1,30 @@
 var bird = {
-	genus : 'corvus',
-	species : 'corvax',
-	commonName: 'raven',
-	callType : 'squawky',
-	quote : 'Nevermore',
-	maxOffspring : 5,
-	noisy : true,
-	deadly : false
+	genus: "Corvus",
+	species: "Corvax",
+	commonName: "Raven",
+	callType: "Squawky",
+	quote: "Nevermore",
+	maxOffspring: 5,
+	noisy: true,
+	deadly: false
 };
 
-bird.quote;
+// Access properties
+console.log("Bird quote:", bird.quote);  //  Correct
+console.log("Bird quote:", bird["quote"]);  // Correct
 
-bird."quote"; // this does not work
-
-bird["quote"];
-
+// Add new properties
 bird.color = "black";
-
-bird;
-
 bird["where it lives"] = "in a tree";
 bird.whereItLives = "in a tree";
-bird.whereItLives;
-bird['whereItLives'];
 
+console.log("Bird:", bird);
+console.log("Where it lives:", bird.whereItLives);
+
+// Delete a property
 delete bird.color;
-bird;
+
+console.log("Bird after delete:", bird);
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
