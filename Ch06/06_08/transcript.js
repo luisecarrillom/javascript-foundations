@@ -1,12 +1,4 @@
-// Before:
-const speak = function () {
-  console.log("Arf");
-  console.log("Woof");
-  console.log("Meow");
-  console.log("Moooooooooooo");
-};
-
-// After:
+// Arrow function version of 'speak'
 const speak = () => {
   console.log("Arf");
   console.log("Woof");
@@ -14,22 +6,13 @@ const speak = () => {
   console.log("Moooooooooooo");
 };
 
-// Before:
-function isEven(num) {
-  return num % 2 === 0;
-}
+speak(); // Call the function
 
-// After:
-let isEven = (num) => {
-  return num % 2 === 0;
-};
+// Arrow function version of 'isEven'
+const isEven = num => num % 2 === 0;
 
-// or:
-isEven = (num) => num % 2 === 0;
-
-// And most succinctly:
-// prettier-ignore
-isEven = num => num % 2 === 0;
+console.log("Is 4 even?", isEven(4));   // true
+console.log("Is 7 even?", isEven(7));   // false
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
